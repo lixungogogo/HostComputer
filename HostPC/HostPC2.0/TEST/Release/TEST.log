@@ -1,0 +1,39 @@
+﻿Build started 2016/4/4 20:34:22.
+     1>Project "E:\压缩包\HostPC2.0\TEST\TEST.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\TEST.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt TESTDlg.cpp
+         TESTDlg.cpp
+     1>TESTDlg.cpp(258): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>TESTDlg.cpp(313): warning C4101: 'f' : unreferenced local variable
+     1>TESTDlg.cpp(496): warning C4101: 'f' : unreferenced local variable
+     1>TESTDlg.cpp(1060): warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+     1>TESTDlg.cpp(1076): warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+     1>TESTDlg.cpp(1088): warning C4244: '=' : conversion from 'double' to 'LONG64', possible loss of data
+     1>TESTDlg.cpp(1094): warning C4244: '=' : conversion from 'double' to 'LONG64', possible loss of data
+     1>TESTDlg.cpp(1099): warning C4244: '=' : conversion from 'double' to 'LONG64', possible loss of data
+     1>TESTDlg.cpp(1106): warning C4244: '=' : conversion from 'double' to 'LONG64', possible loss of data
+     1>TESTDlg.cpp(1107): warning C4244: '=' : conversion from 'double' to 'LONG64', possible loss of data
+     1>TESTDlg.cpp(1111): warning C4244: '=' : conversion from 'double' to 'LONG64', possible loss of data
+     1>TESTDlg.cpp(1112): warning C4244: '=' : conversion from 'double' to 'LONG64', possible loss of data
+     1>TESTDlg.cpp(1117): warning C4244: '=' : conversion from 'double' to 'LONG64', possible loss of data
+     1>TESTDlg.cpp(1118): warning C4244: '=' : conversion from 'double' to 'LONG64', possible loss of data
+     1>TESTDlg.cpp(1122): warning C4244: '=' : conversion from 'double' to 'LONG64', possible loss of data
+     1>TESTDlg.cpp(1123): warning C4244: '=' : conversion from 'double' to 'LONG64', possible loss of data
+     1>TESTDlg.cpp(1129): warning C4244: '=' : conversion from 'LONG64' to 'int', possible loss of data
+     1>TESTDlg.cpp(1130): warning C4244: '=' : conversion from 'LONG64' to 'int', possible loss of data
+     1>TESTDlg.cpp(1131): warning C4244: '=' : conversion from 'LONG64' to 'int', possible loss of data
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\压缩包\HostPC2.0\Release\TEST.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"E:\压缩包\HostPC2.0\Release\TEST.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\压缩包\HostPC2.0\Release\TEST.lib" /MACHINE:X86 /SAFESEH Release\TEST.res
+         Release\NewSocket.obj
+         Release\stdafx.obj
+         Release\TEST.obj
+         Release\TESTDlg.obj
+         Generating code
+         Finished generating code
+         TEST.vcxproj -> E:\压缩包\HostPC2.0\Release\TEST.exe
+     1>Done Building Project "E:\压缩包\HostPC2.0\TEST\TEST.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.45
